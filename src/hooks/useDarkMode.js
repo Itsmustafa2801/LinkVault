@@ -16,6 +16,7 @@ export const useDarkMode = () => {
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light')
     
     // Update document class
+    
     if (isDarkMode) {
       document.documentElement.classList.add('dark')
     } else {
